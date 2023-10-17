@@ -1,8 +1,8 @@
 /*
  * Theme Name: 
  * Theme URI: 
- * Author: Milan Savov
- * Author URI/Mail: milan.savov@gmail.com
+ * Author: Kushal Jain
+ * Author URI/Mail: jainkushal
  * Version: 1.0
  * */
 
@@ -157,7 +157,7 @@ html, body {
 
 /* Background-color */
 .gray-bg {
-    background-color: #e1e1e1;
+    background-color: #284ffa99;
 }
 
 /* HEADER
@@ -240,11 +240,19 @@ html, body {
     bottom: 0;
 }
 
+.hero .col-sm-4 {
+    position: absolute;
+    right: 0;
+    bottom: 2.5px;
+}
+
+
 .hero h1 {
-    font-size: 50px;
-    font-weight: 700;
-    margin: 0 0 15px;
-    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Your Stylish Font", sans-serif;
+    margin: 0 0 10px;
+    letter-spacing: 0.5px; /* Adjust the value for desired thinning */
 }
 
 .job-title {
@@ -288,14 +296,16 @@ html, body {
 /* Section: Skills */
 .section-skills {
     padding-bottom: 120px;
+    text-align: center;
 }
 
 .skill + .skill {
-    margin-top: 50px;
+    margin-top: 25px;
+    text-align: center;
 }
 
 .skill h4 {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
     margin: 0 0 15px;
 }
