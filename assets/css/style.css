@@ -270,12 +270,12 @@ html, body {
 .site-main {
     position: relative;
     margin-bottom: 100px;
-    background-color: #fff;
+    background-color: #CCCCCC;
     z-index: 1;
 }
 /* site-section */
 .site-section {
-   padding-top: 120px;
+   padding-top: 80px;
 }
 
 .site-section h2,
@@ -352,7 +352,7 @@ html, body {
 .section-services .container {
     padding: 120px 100px;
     position: relative;
-    background-color: #fff;
+    background-color: #AAAAAA;
     box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -423,15 +423,15 @@ html, body {
 .portfolio-item-info h4 {
     margin: 0 0 20px;
     font-weight: 700;
-    color: #fff;
+    color: #CCCCCC;
 }
 
 .portfolio-item-info a {
     padding: 6px 7px 4px;
     font-size: 12px;
-    border: 1px solid #fff;
+    border: 1px solid #CCCCCC;
     border-radius: 50px;
-    color: #fff;
+    color: #CCCCCC;
     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
@@ -441,7 +441,7 @@ html, body {
 
 .portfolio-item-info a:hover {
     color: #212121;
-    background-color: #fff;
+    background-color: #CCCCCC;
 }
 
 .section-portfolio .btn {
@@ -469,7 +469,7 @@ html, body {
     right: 0;
     padding: 10px 11px;
     margin-top: 0;
-    background-color: #fff;
+    background-color: #CCCCCC;
     font-size: 16px;
     color: #212121;
     border-left: 1px solid #212121;
@@ -584,4 +584,21 @@ a.icon-up-bg:hover {color: #212121;}
     line-height: 40px;
     color: #fff;
     text-align: center;
+}
+
+
+
+#about {
+    padding-bottom: 50px; /* Adjust the value to control the scroll amount */
+}
+
+/* Change the font color of the placeholder text */
+::placeholder {
+    color: #dc5d5d; /* Replace with the color you want */
+}
+
+@media (max-width: 90%) {
+    #scroll-hover {
+        display: none;
+    }
 }
