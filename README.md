@@ -13,15 +13,5 @@ I'm a passionate developer with expertise in various technologies. Here's a quic
 
 Feel free to explore my projects and skills in detail on the [portfolio website](https://professor9999.github.io/portfolio/).
 
-## Projects
 
-You can find a variety of projects on my portfolio, demonstrating my technical capabilities. These projects include:
-
-- Project 1: [Link](https://your-username.github.io/project1)
-- Project 2: [Link](https://your-username.github.io/project2)
-- Project 3: [Link](https://your-username.github.io/project3)
-
-## Getting Started
-
-To clone this repository and explore my code and projects locally, you can use the following command:
 
